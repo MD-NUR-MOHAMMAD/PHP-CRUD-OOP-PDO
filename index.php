@@ -1,4 +1,10 @@
-<?php include 'inc/header.php' ?>
+<?php
+
+ include 'inc/header.php';
+ include 'lib/database.php';
+ $db = new Database();
+ 
+ ?>
 <div class="card">
     <div class="card-header">
         <h2>Student data <a class="float-end" href="addstudent.php">Add Student Data</a></h2>
