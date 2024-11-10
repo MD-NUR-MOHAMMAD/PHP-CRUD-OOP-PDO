@@ -3,7 +3,6 @@
  include 'inc/header.php';
  include 'lib/database.php';
  $db = new Database();
- 
  ?>
 <div class="card">
     <div class="card-header">
